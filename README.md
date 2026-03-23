@@ -1,4 +1,4 @@
-#🚀 API de Login e Cadastro com Node.js e Express
+🚀 API de Login e Cadastro com Node.js e Express
 
 Este projeto consiste no desenvolvimento de uma API simples para cadastro de usuários e autenticação de login, utilizando Node.js e Express e organizada com o padrão de arquitetura MVC (Model-View-Controller).
 
