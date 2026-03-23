@@ -6,14 +6,14 @@ A aplicação foi criada com o objetivo de praticar conceitos de desenvolvimento
 
 Além disso, o projeto demonstra como validar informações recebidas em requisições HTTP, garantindo que os dados enviados pelo cliente estejam corretos antes de serem processados.
 
-📚 Informações Acadêmicas
+# **📚 Informações Acadêmicas**
 
 Matéria: WEBII
 Professor: Adauto Michelotti
 Curso: Desenvolvimento de Sistemas
 Instituição: ETEC - Escola Técnica Estadual Professor Massuyuki Kawano-Tupã
 
-🛠️ Tecnologias Utilizadas
+# **🛠️ Tecnologias Utilizadas**
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -29,11 +29,11 @@ Linguagem principal utilizada no desenvolvimento da aplicação, responsável po
 JSON (JavaScript Object Notation)
 Formato utilizado para enviar e receber dados entre cliente e servidor.
 
-🧩 Arquitetura do Projeto
+# **🧩 Arquitetura do Projeto**
 
 O projeto foi estruturado utilizando o padrão MVC (Model-View-Controller), que separa as responsabilidades da aplicação para tornar o código mais organizado e fácil de manter.
 
-Controllers
+# **Controllers**
 
 Os controllers são responsáveis por conter a lógica das funcionalidades da API.
 
@@ -44,35 +44,35 @@ Cadastro de usuário
 
 Eles recebem os dados enviados na requisição, realizam validações e retornam uma resposta adequada para o cliente.
 
-Rotas (Routes)
+# **Rotas (Routes)**
 
 As rotas definem os endpoints da API, ou seja, os caminhos que podem ser acessados através de requisições HTTP.
 
 Cada rota direciona a requisição para um controller específico que executa a lógica correspondente.
 
-App
+# **App**
 
 O arquivo principal da aplicação é responsável por configurar o Express, registrar as rotas e preparar a aplicação para ser executada.
 
-Server
+# **Server**
 
 O servidor é responsável por inicializar a aplicação e disponibilizar a API em uma porta específica, permitindo que o cliente faça requisições.
 
-📡 Funcionalidades da API
+# **📡 Funcionalidades da API**
 
 A API possui duas funcionalidades principais:
 
-Cadastro de Usuário
+# **Cadastro de Usuário**
 
 A rota de cadastro recebe informações enviadas pelo cliente e realiza validações antes de criar o usuário.
 
-Os dados esperados são:
+# **Os dados esperados são:**
 
 Nome
 Email
 Idade
 
-Antes de retornar sucesso, o sistema valida:
+**Antes de retornar sucesso, o sistema valida:**
 
 se o nome possui mais de 3 caracteres
 se o email possui formato válido (contendo "@")
@@ -80,9 +80,9 @@ se a idade está dentro de um intervalo válido
 
 Caso alguma informação esteja incorreta, a API retorna uma mensagem de erro informando o problema.
 
-Login de Usuário
+# **Login de Usuário**
 
-A funcionalidade de login recebe:
+**A funcionalidade de login recebe:**
 
 Usuário
 Senha
@@ -93,7 +93,7 @@ Caso as informações estejam corretas, a API retorna uma mensagem de sucesso in
 
 Caso contrário, é retornada uma mensagem de erro informando que o usuário ou senha são inválidos.
 
-🎯 Objetivo do Projeto
+# **🎯 Objetivo do Projeto**
 
 Este projeto foi desenvolvido com o objetivo de praticar:
 
@@ -104,7 +104,8 @@ Validação de dados enviados pelo cliente
 Retorno de respostas em JSON
 Organização de código em controllers e rotas
 
-👨‍💻 Autor
+# **👨‍💻 Autor**
+
 Rafael Ladeira Reyes
 
 Estudante de Desenvolvimento de Sistemas focado em aprimorar conhecimentos em programação, backend e desenvolvimento de APIs.
